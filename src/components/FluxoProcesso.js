@@ -53,7 +53,7 @@ const FluxoLancamento = () => {
         <div className="mb-2">
           <h3 className="text-lg font-semibold text-blue-600">1️⃣ 🛠️ Lançamento e Distribuição de Materiais</h3>
           <ul className="list-disc pl-6 text-gray-600">
-            <li>O <strong>almoxarifado</strong> realiza o lançamento dos materiais da reserva da obra.</li>
+            <li>O <strong>almoxarifado</strong> realiza o lançamento dos materiais da reserva da obra no projeto criado no GPM.</li>
             <li>Após o lançamento, o <strong>almoxarifado</strong> distribui os materiais para as equipes selecionadas pela <strong>Supervisão</strong>.</li>
             <li>As equipes selecionadas terão os materiais registrados no seu estoque.</li>
           </ul>
@@ -66,8 +66,6 @@ const FluxoLancamento = () => {
             <li>Registra os materiais aplicados e as atividades realizadas.</li>
           </ul>
         </div>
-
-
 
         <div className="mb-2">
           <h3 className="text-lg font-semibold text-blue-600">3️⃣ 👷🏼 Lançamento no Sistema</h3>
@@ -84,13 +82,13 @@ const FluxoLancamento = () => {
             <li>Se houver erros, ajusta ou solicita revisão da equipe de campo.</li>
             <li>O Assistente Administrativo com auxílio da supervisão, revisa e corrige inconsistências no GPM Web.</li>
           </ul>
-          <p className="text-gray-600 mt-2"><strong>⏳ Prazos:</strong> Serviços executados até D devem ser lançados até D+1.</p>
+          <p className="text-gray-600 mt-2"><strong>⏳ Prazos:</strong> Serviços executados até <strong>D</strong> devem ser lançados até <strong>D+1</strong>.</p>
         </div>
 
         <div className="mb-4">
           <h3 className="text-lg font-semibold text-blue-600">5️⃣ 🧑‍💻 Fechamento e Conferência</h3>
           <ul className="list-disc pl-6 text-gray-600">
-            <li>No final do D+1, verifica-se se todos os lançamentos foram feitos corretamente.</li>
+            <li>No final do <strong>D+1</strong>, verifica-se se <strong>todos os lançamentos</strong> foram feitos corretamente.</li>
             <li>A Coordenação assegura-se de que as informações lançadas são reais, dando assim o aval para a liberação da Folha de Medição à LIGHT.</li>
           </ul>
         </div>
