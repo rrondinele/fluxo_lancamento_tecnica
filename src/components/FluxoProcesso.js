@@ -49,17 +49,28 @@ const FluxoLancamento = () => {
         </p>
 
         <h2 className="text-xl font-semibold mb-2 text-gray-700">🔹 Etapas do Processo</h2>
+        
+        <div className="mb-2">
+          <h3 className="text-lg font-semibold text-blue-600">1️⃣ 🛠️ Lançamento e Distribuição de Materiais</h3>
+          <ul className="list-disc pl-6 text-gray-600">
+            <li>O <strong>almoxarifado</strong> realiza o lançamento dos materiais da reserva da obra.</li>
+            <li>Após o lançamento, o <strong>almoxarifado</strong> distribui os materiais para as equipes selecionadas pela <strong>Supervisão</strong>.</li>
+            <li>As equipes selecionadas terão os materiais registrados no seu estoque.</li>
+          </ul>
+        </div>
 
         <div className="mb-2">
-          <h3 className="text-lg font-semibold text-blue-600">1️⃣ Execução do Serviço pela Equipe de Campo</h3>
+          <h3 className="text-lg font-semibold text-blue-600">2️⃣ 👷🏼 Execução do Serviço pela Equipe de Campo</h3>
           <ul className="list-disc pl-6 text-gray-600">
             <li>A <strong>equipe de campo</strong> executa o serviço conforme planejado.</li>
             <li>Registra os materiais aplicados e as atividades realizadas.</li>
           </ul>
         </div>
 
+
+
         <div className="mb-2">
-          <h3 className="text-lg font-semibold text-blue-600">2️⃣ Lançamento no Sistema</h3>
+          <h3 className="text-lg font-semibold text-blue-600">3️⃣ 👷🏼 Lançamento no Sistema</h3>
           <ul className="list-disc pl-6 text-gray-600">
             <li><strong>Equipe de Campo</strong> realiza o lançamento inicial (serviços e/ou materiais) no aplicativo <strong>JUPITER</strong>.</li>
             <li>Inconsistências ou dúvidas devem ser informadas à Supervisão de imediato.</li>
@@ -67,7 +78,7 @@ const FluxoLancamento = () => {
         </div>
 
         <div className="mb-2">
-          <h3 className="text-lg font-semibold text-blue-600">3️⃣ Validação e Ajustes (Quando Necessário)</h3>
+          <h3 className="text-lg font-semibold text-blue-600">4️⃣ 🧑‍💻Validação e Ajustes (Quando Necessário)</h3>
           <ul className="list-disc pl-6 text-gray-600">
             <li>Supervisão verifica se os lançamentos são compatíveis.</li>
             <li>Se houver erros, ajusta ou solicita revisão da equipe de campo.</li>
@@ -77,7 +88,7 @@ const FluxoLancamento = () => {
         </div>
 
         <div className="mb-4">
-          <h3 className="text-lg font-semibold text-blue-600">4️⃣ Fechamento e Conferência</h3>
+          <h3 className="text-lg font-semibold text-blue-600">5️⃣ 🧑‍💻 Fechamento e Conferência</h3>
           <ul className="list-disc pl-6 text-gray-600">
             <li>No final do D+1, verifica-se se todos os lançamentos foram feitos corretamente.</li>
             <li>A Coordenação assegura-se de que as informações lançadas são reais, dando assim o aval para a liberação da Folha de Medição à LIGHT.</li>
